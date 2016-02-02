@@ -1,0 +1,29 @@
+{
+  "name": "replace-bundle-webpack-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimhou/replace-bundle-webpack-plugin.git"
+  },
+  "homepage": "https://github.com/kimhou/replace-bundle-webpack-plugin",
+  "keywords": [
+    "webpack",
+    "replace"
+  ],
+  "author": {
+    "name": "kimhou",
+    "email": "honkang@163.com"
+  },
+  "bugs": {
+    "url": "https://github.com/kimhou/replace-bundle-webpack-plugin/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "webpack-core": "^0.6.8"
+  }
+}
