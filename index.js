@@ -38,8 +38,8 @@ function replaceFile(compilation, fileName, replacements){
 	var result = compilation.assets[fileName].source();
 
 	replacements.forEach(function (replacement) {
-		if(!replacement.skip && replacement.partten && replacement.replacement){
-			result = result.replace(replacement.partten, replacement.replacement);
+		if(!replacement.skip && replacement.pattern && replacement.replacement){
+			result = result.replace(replacement.pattern, replacement.replacement);
 		}
 	});
 	compilation.assets[fileName] = new ConcatSource(result);
