@@ -8,7 +8,7 @@ var ReplaceBundleStringPlugin = require('replace-bundle-webpack-plugin')
 
 plugins: [
     new ReplacePlugin([{
-        partten: /window.require/g,
+        pattern: /window.require/g,
         replacement: function () {
             return 'require';
         }
